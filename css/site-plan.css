@@ -13,7 +13,7 @@ html {
 body {
   max-width: 900px;
   margin: 0 auto;
-  background-color: white;
+  background-color: var(--accent1-color);
   padding: 1em;
 }
 img {
@@ -28,20 +28,20 @@ h4,
 h5,
 h6 {
   font-family: var(--paragraph-font);
-  color: #444444;
+  color: var(--accent2-color);
 }
 header {
   padding: 1em;
   text-align: center;
   color: var(--accent2-color);
-  background-color: ;
+  background-color: var(--accent1-color);
 }
 header > h1 {
-  color: ;
+  color: var(--accent2-color);
 }
 p {
   font-family: var(--paragraph-font);
-  color: ;
+  color: var(--accent2-color);
   padding: 1em;
 }
 .colors {
@@ -70,7 +70,7 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color: ;
+  background-color: var(--accent1-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
