@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|News+Cycle&display=swap');
 :root {
-  --primary-color: #0A545D;
-  --secondary-color: #C6C7CA;
-  --accent1-color: #FAFAFF;
-  --accent2-color: #7F7F81;
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --primary-color: #0a545d;
+  --secondary-color: #c6c7ca;
+  --accent1-color: #fafaff;
+  --accent2-color: #444444;
+  --heading-font: "Bangers";
+  --paragraph-font: News Cycle, palatino, sans-serif;
 }
 html {
   background-color: var(--primary-color);
@@ -19,14 +19,16 @@ body {
 img {
   max-width: 100%;
 }
-h1,
+h1 {
+  font-family: var(--heading-font);
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
-  color: ;
+  font-family: var(--paragraph-font);
+  color: #444444;
 }
 header {
   padding: 1em;
