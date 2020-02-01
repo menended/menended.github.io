@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--paragraph-font);
+  font-family: var(--heading-font);
   color: var(--accent2-color);
 }
 header {
@@ -88,6 +88,6 @@ nav a:visited {
   color: var(--accent2-color);
 }
 nav a:hover {
-  color: var(--accent2-color);
+  color: var(-);
   background-color: var(--accent1-color);
 }
