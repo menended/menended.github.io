@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|News+Cycle&display=swap');
+:root {
+  --primary-color: #0a545d;
+  --secondary-color: #bbaa93;
+  --accent1-color: #e0d7d7;
+  --accent2-color: #444444;
+  --heading-font: "Bangers";
+  --paragraph-font: News Cycle, palatino, sans-serif;
+}
+
 body {
-  background-color: #444444;
-  font-size: 16px;
+  background-color: #bbaa93;
+  font-size: 18px;
 }
 
 header,
@@ -12,20 +22,51 @@ footer {
 }
 
 header {
-  background-color: #;
+  background-color: #e0d7d7;
   color: #;
   border: 1 px solid #;
   padding: 10px;
 }
 
 header img {
-  width: 50px;
+  width: 120px;
   height: auto;
   border: 1 px solid #;
-  box-shadow: 0 0 30px #;
 }
 
-header h1 {
+h1 {
   font-size: 3rem;
   margin: 0 0 0 30px;
+  font-family: "bangers";
+  text-align: center;
+  color: var(--accent2-color)
+}
+
+h2 {
+  font-size: 1.5rem
+  font-family: "bangers";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: var(--accent1-color);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+div.social {
+  float: right;
 }

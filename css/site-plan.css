@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers|News+Cycle&display=swap');
 :root {
   --primary-color: #0a545d;
-  --secondary-color: #e6ebfc;
-  --accent1-color: #fafaff;
+  --secondary-color: #bbaa93;
+  --accent1-color: #e0d7d7;
   --accent2-color: #444444;
   --heading-font: "Bangers";
+  --paragraph-font: News Cycle, palatino, sans-serif;
   --paragraph-font: News Cycle, palatino, sans-serif;
 }
 html {
