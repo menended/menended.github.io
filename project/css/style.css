@@ -73,7 +73,7 @@ p {
 
 footer {
   list-style-type: none;
-  margin: 0;
+  margin: 9;
   padding: 10px 10px;
   overflow: hidden;
   background-color: var(--primary-color);
