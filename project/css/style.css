@@ -1,9 +1,31 @@
 body {
-  background-color: #684e4e;
+  background-color: #444444;
   font-size: 16px;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
   max-width: 960px;
   margin: 0 auto;
+}
+
+header {
+  background-color: #;
+  color: #;
+  border: 1 px solid #;
+  padding: 10px;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  border: 1 px solid #;
+  box-shadow: 0 0 30px #;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0 0 0 30px;
 }
