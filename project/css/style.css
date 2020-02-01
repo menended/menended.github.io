@@ -1,0 +1,9 @@
+body {
+  background-color: #444444;
+  font-size: 16px;
+}
+
+header, nav, main, footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
