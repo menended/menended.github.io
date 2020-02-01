@@ -5,7 +5,7 @@
   --accent1-color: #e0d7d7;
   --accent2-color: #423328;
   --heading-font: "Bangers";
-  --paragraph-font: "News Cycle", serif, sans-serif;
+  --paragraph-font: "News Cycle", sans-serif, serif;
 }
 
 body {
