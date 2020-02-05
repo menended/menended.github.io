@@ -26,7 +26,7 @@ header {
   padding: 10px;
   display: flex;
   align-items:center;
-	justify-content:center;
+  justify-content:center;
 }
 
 header img {
@@ -38,14 +38,14 @@ header img {
   margin: 0 0 0 30px;
   flex-direction: column;
   font-size: 3rem;
-	color: var(--accent2-color);
+  color: var(--accent2-color);
 }
 
 .motto {
   margin: 0 0 0 30px;
   letter-spacing: 1.2pt;
   font-size: 2rem;
-	font-style: italic; 
+  font-style: italic; 
   color: var(--accent1-color);
 }
 
