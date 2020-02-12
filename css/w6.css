@@ -38,3 +38,173 @@ body {
   background-color: blue;
   grid-column: 1/3;
 }
+
+/* Layout 2 */
+.content2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.red2 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold2 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue2 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Layout 3 */
+.content3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.red3 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold3 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue3 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Layout 4 */
+.content4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.red4 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green4 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold4 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue4 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Layout 5 */
+.content5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.red5 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green5 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold5 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue5 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Layout 6 */
+.content6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.red6 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green6 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold6 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue6 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
