@@ -7,8 +7,8 @@ body {
 
 /* Activity 1 styles */
 .content1 {
-  display: grid
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
   justify-items: center;
   grid-gap: 20px;
 }
