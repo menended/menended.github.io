@@ -86,7 +86,6 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
   grid-gap: 0px 100px;
 }
 
