@@ -121,7 +121,6 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: ;
   grid-gap: 0px;
 }
 
@@ -202,27 +201,40 @@ body {
 }
 
 .red6 {
-  width: 100%;
-  height: 100px;
+  width: 500px;
+  height: 200px;
   background-color: red;
-  grid-column: 1/3;
+  z-index: 1;
+  position: absolute;
+  left: 10px;
 }
 
 .green6 {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: green;
+  z-index: 3;
+  position: absolute;
+  top: 450px;
+  left: 10px;
 }
 
 .gold6 {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 500px;
   background-color: gold;
+  z-index: 3;
+  position: absolute;
+  left: 510px;
+  top: 200px;
 }
 
 .blue6 {
-  width: 100%;
-  height: 100px;
+  width: 510px;
+  height: 510px;
   background-color: blue;
-  grid-column: 1/3;
+  z-index: 2;
+  position: absolute;
+  left: 125px;
+  top: 100px;
 }
