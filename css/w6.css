@@ -43,6 +43,7 @@ body {
 /* Layout 2 */
 .content2 {
   position: relative;
+  height: 350px;
 }
 
 .red2 {
