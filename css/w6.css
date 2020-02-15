@@ -5,7 +5,7 @@ body {
   font-family: 'Courier New', Courier, monospace
 }
 
-/* Activity 1 styles */
+/* Layout 1 */
 .content1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
