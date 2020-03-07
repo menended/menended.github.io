@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Bangers|News+Cycle&display=swap");
 :root {
-  --primary-color: #7c7979;
+  --primary-color: #141313;
   --secondary-color: #bbaa93;
   --accent1-color: #223623;
-  --accent2-color: #423328;
+  --accent2-color: #332821;
   --heading-font: Bangers;
   --paragraph-font: "News Cycle", verdana, sans-serif;
 }
@@ -64,18 +64,19 @@ ul {
   background-color: var(--accent1-color);
   font-family: "News Cycle";
   font-size: 1.2rem;
+  display: flex;
 }
 
 
 li {
-  float: left;
+  flex: 1 1 auto;
 }
 
 li a {
   display: block;
   color: var(--secondary-color);
   text-align: center;
-  padding: 14px 96.5px;
+  padding: 14px;
   text-decoration: none;
 }
 
