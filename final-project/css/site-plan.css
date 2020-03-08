@@ -1,24 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Unna&display=swap');
 :root {
-  --primary-color: #E8E2D0;
-  --secondary-color: #7094AD;
+  --primary-color: #F0EEE8;
+  --secondary-color: #FFBF00;
   --accent1-color: #383838;
   --accent2-color: #D3D3D3;
   --heading-font: "Cinzel";
-  --paragraph-font: "Lusitana", Serif, Arial;
+  --paragraph-font: "Unna", Serif, Arial;
 }
 html {
-  background-color: var(--primary-color);
+  background-color: var(--accent2-color);
 }
 body {
   max-width: 900px;
   margin: 0 auto;
-  background-color: var(--accent2-color);
+  background-color: var(--primary-color);
   padding: 1em;
 }
 img {
   max-width: 100%;
 }
+
+.main-image {
+  width: 380px;
+  height: auto;
+  box-shadow: 5px 0 5px var(--accent1-color);
+}
+
 h1,
 h2,
 h3,
@@ -31,11 +38,11 @@ h6 {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--accent2-color);
+  color: var(--accent1-color);
   background-color: var(--accent2-color);
 }
 header > h1 {
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
 p {
   font-family: var(--paragraph-font);
@@ -68,7 +75,7 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color: var(--primary-color);
+  background-color: var(--accent2-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -86,6 +93,6 @@ nav a:visited {
   color: var(--accent1-color);
 }
 nav a:hover {
-  color: var(--accent1-color);
-  background-color: var(--accent2-color);
+  color: var(--accent2-color);
+  background-color: var(--accent1-color);
 }
