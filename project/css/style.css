@@ -110,6 +110,7 @@ li a:hover {
   background-color: rgb(190, 171, 63);
   font-size: 1.2em;
   font-family: "News Cycle";
+  text-decoration: none;
 }
 
 .home-grid {
@@ -163,39 +164,38 @@ li a:hover {
 .rivers-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 22px;
+  grid-gap: 20px;
 }
 
 .rivers-title {
   text-align: left;
   grid-column: 1 / 1;
-  grid-row: 1 / 1;
 }
 
 .rivers-sub {
   text-align: left;
   grid-column: 1 / 1;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
 .rivers-p {
-  text-align: left;
-  grid-column: 1 / 2;
+  text-align: justify;
+  grid-column: 1 / 1;
 }
 
 .river-image {
-  width: 98%;
-  height: auto;
+  width: 99%;
+  height: 349px;
   text-align: right;
   grid-column: 2 / 2;
   border: 2px solid var(--accent2-color);
-  box-shadow: 5px 5px 5px var(--accent2-color);
+  box-shadow: 0 5px 5px var(--accent2-color);
 }
 
 .dropbtn {
   background-color: var(--accent1-color);
   color: var(--secondary-color);
-  padding: 16px 190px;
+  padding: 16px 192px; 
   font-size: 1.2em;
   border: none;
   cursor: pointer;
@@ -204,28 +204,29 @@ li a:hover {
 .dropdown {
   position: relative;
   display: inline-block;
-  grid-column: 2 / 2;
+  grid-column: 2 / 3;
   grid-row: 2 / 2;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: var(--secondary-color);
+  min-width: 100%;
+  overflow: auto;
+  box-shadow: 0 5px 5px var(--accent2-color);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 18px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .dropdown:hover .dropdown-content {
@@ -276,6 +277,19 @@ img.main {
   height: auto;
 }
 
+.contacto input[type="text"],
+.contacto textarea {
+  padding: 7px 6px;
+  width: 294px;
+  border: 1px solid var(--primary-color);
+  resize: none;
+  margin: 5px 0;
+}
+.contacto input[type="text"]:focus,
+.contacto textarea:focus {
+  outline: none;
+}
+
 footer {
   list-style-type: none;
   overflow: hidden;
@@ -292,19 +306,6 @@ div.foot {
 
 div.social {
   padding: 10px 0 4px 420px;
-}
-
-.contacto input[type="text"],
-.contacto textarea {
-  padding: 7px 6px;
-  width: 294px;
-  border: 1px solid var(--primary-color);
-  resize: none;
-  margin: 5px 0;
-}
-.contacto input[type="text"]:focus,
-.contacto textarea:focus {
-  outline: none;
 }
 
 @media screen and (max-width: 550px) {
