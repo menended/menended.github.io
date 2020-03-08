@@ -183,7 +183,7 @@ li a:hover {
 .rivers-p {
   text-align: justify;
   grid-column: 1 / 1;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .river-image {
@@ -279,6 +279,30 @@ div.blog-img {
 }
 
 /*Contact Webpage*/
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact-title {
+  text-align: left;
+  grid-column: 1 / 2;
+}
+
+.contact-box {
+  text-align: left;
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;
+  margin: 10px 0;
+}
+
+.contact-fields {
+  text-align: justify;
+  grid-column: 2 / 3;
+  font-size: 1.2rem;
+}
 
 .contacto input[type="text"],
 .contacto textarea {
