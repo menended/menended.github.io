@@ -198,7 +198,7 @@ li a:hover {
 .dropbtn {
   background-color: var(--accent1-color);
   color: var(--secondary-color);
-  padding: 16px 192px;
+  padding: 16px 190px;
   font-size: 1.2em;
   border: none;
   cursor: pointer;
