@@ -52,10 +52,6 @@ nav > ul {
   display: flex;
 }
 
-li {
-  flex: 1;
-}
-
 nav a {
   padding: 1em;
   min-width: 70px;
