@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Unna&display=swap');
+:root {
+  --primary-color: #F0EEE8;
+  --secondary-color: #FFBF00;
+  --accent1-color: #383838;
+  --accent2-color: #D3D3D3;
+  --heading-font: "Cinzel";
+  --paragraph-font: "Unna", Serif, Arial;
+}
+html {
+  background-color: var(--accent2-color);
+}
+body {
+  max-width: 98%;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--accent1-color);
+  background-color: var(--primary-color);
+}
+header > h1 {
+  color: var(--accent1-color);
+}
+
+nav {
+  background-color: var(--accent2-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.3em;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding: 1em;
+  min-width: 70px;
+  text-decoration: none;
+}
+nav a:link,
+nav a:visited {
+  color: var(--accent1-color);
+}
+nav a:hover {
+  color: var(--accent2-color);
+  background-color: var(--accent1-color);
+}
+
+h1 {
+  font-size: 2rem;
+  text-shadow: 0 0 28px var(--secondary-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--accent1-color);
+  padding: 1em;
+}
+
+.banner-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  border: 2px solid var(--accent2-color);
+}
+
+.main-declaration {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0;
+}
+
+.image-dec  {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px var(--accent1-color);
+  display: flex;
+  grid-column: 1 / 6;
+  float: right;
+  position: absolute;
+}
+
+.text-dec {
+  grid-column: 3 / 6;
+  text-align: justify;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 80px;
+  float: right;
+}
