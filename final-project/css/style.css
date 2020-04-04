@@ -23,7 +23,7 @@ header {
 
 .title {
   font-size: 1rem;
-  text-shadow: 0 0 10px var(--accent1-colors);
+  text-shadow: 0 0 1px var(--accent1-colors);
   font-family: var(--heading-font);
   padding-bottom: 10px;
 }
@@ -32,7 +32,7 @@ header {
   background-color: var(--accent2-color);
   font-size: 1.2em;
   border: 1.5px solid var(--accent1-color);
-  box-shadow: 0 0 1px var(--accent1-color);
+  box-shadow: 0 0 5px var(--accent1-color);
 }
 
 ul {
@@ -67,11 +67,7 @@ img {
   max-width: 100%;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: var(--heading-font);
   color: var(--accent1-color);
 }
@@ -89,9 +85,10 @@ p {
 }
 
 .image-dec  {
+  overflow: hidden;
   width: 100%;
   height: auto;
-  box-shadow: 0 0 10px var(--accent1-color);
+  border: 1.5px solid var(--accent1-color);
   display: flex;
   grid-column: 1 / 6;
 }
@@ -103,4 +100,37 @@ p {
   padding: 0 20px 0 570px;
   margin: 0 80px;
 
+}
+
+/* Here all posts*/
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card {
+  width: 240px;
+  border: 1.5px solid var(--accent1-color);
+  background-color: var(--primary-color);
+  overflow: hidden;
+  margin: 2.2rem;
+}
+
+.card p, h4 {
+  font-family: var(--paragraph-font);
+  padding: 0 25px;
+}
+
+.topic {
+  border-radius: 0 5px 5px 0; padding: 0.5rem;
+  border: 1px solid var(--accent1-color);;
+  background-color: var(--accent1-color);;
+  color: var(--primary-color);
+  width: 8rem;
+}
+
+.posts footer {
+  padding: 0 20px 20px 20px;
 }
