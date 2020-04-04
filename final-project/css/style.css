@@ -11,52 +11,49 @@ html {
   background-color: var(--accent2-color);
 }
 body {
-  max-width: 98%;
-  margin: 0 auto;
   background-color: var(--primary-color);
-  padding: 1em;
 }
 
-img {
-  max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--heading-font);
-  color: var(--accent1-color);
-}
 header {
-  padding: 1em;
+  padding: 2rem;
   text-align: center;
   color: var(--accent1-color);
   background-color: var(--primary-color);
 }
-header > h1 {
-  color: var(--accent1-color);
+
+.title {
+  font-size: 1rem;
+  text-shadow: 0 0 10px var(--accent1-colors);
+  font-family: var(--heading-font);
+  padding-bottom: 10px;
 }
 
-nav {
+.nav {
   background-color: var(--accent2-color);
-  line-height: 2em;
-  font-size: 1.3em;
-  display: flex;
-  justify-content: space-around;
+  font-size: 1.2em;
+  border: 1.5px solid var(--accent1-color);
+  box-shadow: 0 0 1px var(--accent1-color);
+  
 }
-nav > ul {
+ul {
   list-style-type: none;
+  overflow: hidden;
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 
-nav a {
-  padding: 1em;
-  min-width: 70px;
+li {
+  flex: 1 1 auto;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px;
   text-decoration: none;
 }
+
 nav a:link,
 nav a:visited {
   color: var(--accent1-color);
@@ -66,22 +63,23 @@ nav a:hover {
   background-color: var(--accent1-color);
 }
 
-h1 {
-  font-size: 2rem;
-  position: relative;
-  text-shadow: 0 0 30px var(--accent1-color);
+img {
+  max-width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
 }
 
 p {
   font-family: var(--paragraph-font);
   color: var(--accent1-color);
   padding: 1em;
-}
-
-.banner-box img{
-  width: 100%;
-  height: auto;
-  position: relative;
 }
 
 .main-declaration {
