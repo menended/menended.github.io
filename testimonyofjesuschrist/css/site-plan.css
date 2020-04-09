@@ -21,13 +21,13 @@ img {
 }
 
 .logo {
-  width: 250px;
+  width: 220px;
   border: 2px solid var(--accent1-color);
 }
 
 .main-image {
-  width: 380px;
-  height: auto;
+  display:block;
+  margin:0 auto 0 auto;
   box-shadow: 5px 0 5px var(--accent1-color);
 }
 
