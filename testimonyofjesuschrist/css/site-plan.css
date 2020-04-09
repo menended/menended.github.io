@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Unna&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Unna&display=swap");
 :root {
-  --primary-color: #F0EEE8;
-  --secondary-color: #FFBF00;
+  --primary-color: #f0eee8;
+  --secondary-color: #ffbf00;
   --accent1-color: #383838;
-  --accent2-color: #D3D3D3;
+  --accent2-color: #d3d3d3;
   --heading-font: "Cinzel";
   --paragraph-font: "Unna", Serif, Arial;
 }
@@ -18,6 +18,11 @@ body {
 }
 img {
   max-width: 100%;
+}
+
+.logo {
+  width: 250px;
+  border: 2px solid var(--accent1-color);
 }
 
 .main-image {
@@ -38,11 +43,11 @@ h6 {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--accent1-color);
-  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  background-color: var(--accent1-color);
 }
 header > h1 {
-  color: var(--accent1-color);
+  color: var(--primary-color);
 }
 p {
   font-family: var(--paragraph-font);
@@ -76,20 +81,26 @@ p {
 }
 nav {
   background-color: var(--accent2-color);
-  line-height: 3em;
+  line-height: 1.6em;
   text-align: center;
   font-size: 1.2em;
+}
+
+li {
+  flex: 1 1 auto;
 }
 
 nav > ul {
   list-style-type: none;
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
-  padding: 1em;
-  min-width: 70px;
+  padding: 14px;
   text-decoration: none;
+  display: block;
 }
 nav a:link,
 nav a:visited {
@@ -98,4 +109,13 @@ nav a:visited {
 nav a:hover {
   color: var(--accent2-color);
   background-color: var(--accent1-color);
+}
+
+footer {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
 }
