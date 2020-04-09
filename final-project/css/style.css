@@ -8,7 +8,7 @@
   --paragraph-font: "Unna", Serif, Arial;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--accent1-color);
 }
@@ -30,7 +30,6 @@ body {
 }
 
 header {
-  padding: 2rem;
   color: var(--accent1-color);
   background-color: var(--primary-color);
 }
@@ -38,20 +37,20 @@ header {
 div.head {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
+  margin: 20px 32px;
+}
+
+div.banner-box img {
+  grid-column: 2 / 3;
+  padding-top: 20px;
 }
 
 div.title h1{
   font-size: 2rem;
   text-shadow: 0 0 1px var(--accent1-colors);
   font-family: var(--heading-font);
-  grid-column: 3 / 3;
-}
-
-div.banner-box img {
-  display: block;
   grid-column: 1 / 2;
-  align-items: center;
+  text-align: center;
 }
 
 .nav {
@@ -59,6 +58,7 @@ div.banner-box img {
   font-size: 1.8em;
   border: 1.5px solid var(--accent1-color);
   box-shadow: 0 0 3px var(--accent1-color);
+  margin: 20px 32px;
 }
 
 ul {
@@ -153,7 +153,7 @@ div.text-dec p {
   list-style-type: none;
   font-size: 1.2rem;
   padding: 11px;
-  margin: 32px 32px 20px 32px;
+  margin: 20px 32px 20px 32px;
   display: flex;
   overflow: hidden;
 }
@@ -172,5 +172,5 @@ div.text-dec p {
 .plan a:hover {
   color: var(--accent2-color);
   background-color: var(--accent1-color);
-  padding: 15px;
+  padding: 20px;
 }
