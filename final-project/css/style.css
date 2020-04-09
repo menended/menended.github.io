@@ -145,15 +145,24 @@ div.text-dec p {
   list-style-type: none;
   font-size: 1.2rem;
   padding: 11px;
-  margin: 30px 30px 15px 30px;
+  margin: 32px 32px 15px 32px;
+  display: flex;
+  overflow: hidden;
 }
 
-.info {
-  text-align: left;
-  margin-left: 20px;
+.branch {
+  width: 40px;
+  height: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.plan {
-  align-items: right;
-  margin-left: 50px;
+.plan a:link,
+.plan a:visited {
+  color: var(--accent1-color);
+}
+.plan a:hover {
+  color: var(--accent2-color);
+  background-color: var(--accent1-color);
+  padding: 15px;
 }
