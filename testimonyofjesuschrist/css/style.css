@@ -92,7 +92,7 @@ img {
 div.main-declaration {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 70px;
+  padding: 59px;
 }
 
 div.image-dec img {
@@ -109,7 +109,7 @@ div.text-dec p {
 
 .invitation {
   background-color: var(--extra);
-  padding: 140px;
+  padding: 20px;
 }
 
 .invitation h2 {
@@ -117,7 +117,19 @@ div.text-dec p {
   font-size: 3em;
   font-weight: bold;
   color: var(--primary-color);
+  margin-top: 60px;
 }
+
+.invitation img {
+  width: 170px;
+  box-shadow: 0 0 10px var(--accent1-color);
+  overflow: hidden;
+  border-radius: 8px;
+  display:block;
+  margin:0 auto 0 auto;
+  margin-bottom: 60px;
+}
+
 
 .posts {
   display: grid;
@@ -144,7 +156,7 @@ h4 {
 }
 
 .card button {
-  background-color: var(--extra);
+  background-color: var(--accent1-color);
   color: var(--accent2-color);
   width: 100%;
   padding: 18px 25px;
@@ -153,6 +165,7 @@ h4 {
   border: none;
   transition-duration: 0.4s;
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .card button:hover {
@@ -167,7 +180,7 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  margin: 100px;
+  margin: 56px;
 }
 
 .contact-title {
@@ -225,7 +238,7 @@ textarea {
   width: 100%;
   font-size: 1.4em;
   padding: 16px 0;
-  position: fixed;
+  position: relative;
 }
 
 a:link,
