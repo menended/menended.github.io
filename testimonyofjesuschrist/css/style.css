@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Unna&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Unna&display=swap");
 :root {
-  --primary-color: #F0EEE8;
-  --secondary-color: #FFBF00;
+  --primary-color: #f0eee8;
+  --secondary-color: #ffbf00;
   --accent1-color: #383838;
-  --accent2-color: #D3D3D3;
+  --accent2-color: #d3d3d3;
   --heading-font: "Cinzel";
   --paragraph-font: "Unna", Serif, Arial;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font);
   color: var(--accent1-color);
 }
@@ -27,6 +31,8 @@ a {
 body {
   background-color: var(--primary-color);
   font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -34,31 +40,19 @@ header {
   background-color: var(--primary-color);
 }
 
-div.head {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px 32px;
-}
-
-div.banner-box img {
-  grid-column: 2 / 3;
-  padding-top: 20px;
-}
-
-div.title h1{
+.title h1 {
   font-size: 2rem;
   text-shadow: 0 0 1px var(--accent1-colors);
   font-family: var(--heading-font);
   grid-column: 1 / 2;
   text-align: center;
+  padding: 16px 0;
 }
 
 .nav {
   background-color: var(--accent2-color);
   font-size: 1.8em;
-  border: 1.5px solid var(--accent1-color);
-  box-shadow: 0 0 3px var(--accent1-color);
-  margin: 20px 32px;
+  width: 100%;
 }
 
 ul {
@@ -76,8 +70,9 @@ li {
 li a {
   display: block;
   text-align: center;
-  padding: 14px;
+  padding: 20px;
   text-decoration: none;
+  transition-duration: 0.4s;
 }
 
 nav a:link,
@@ -96,7 +91,7 @@ img {
 div.main-declaration {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 32px;
+  padding: 70px;
 }
 
 div.image-dec img {
@@ -114,66 +109,41 @@ div.text-dec p {
 .posts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 56px;
 }
 
 .card {
   text-align: justify;
   font-size: 1.2rem;
-  width: 240px;
-  border: 1.5px solid var(--accent1-color);
+  width: 100%;
+  border: 2px solid var(--accent1-color);
   background-color: var(--primary-color);
   overflow: hidden;
-  margin: 2.2rem;
 }
 
-.card p, h4 {
+.card p,
+h4 {
   font-family: var(--paragraph-font);
   padding: 0 25px;
 }
 
-.topic {
-  border-radius: 0 5px 5px 0; padding: 0.5rem;
-  border: 1px solid var(--accent1-color);;
-  background-color: var(--accent1-color);;
-  color: var(--primary-color);
-  width: 8rem;
+.card button {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  width: 100%;
+  padding: 18px 25px;
+  font-size: 0.8em;
+  text-align: left;
+  border: none;
+  transition-duration: 0.4s;
 }
 
-.posts footer {
-  padding: 0 20px 20px 20px;
-}
-
-/* Footer */
-
-.foot {
+.card button:hover {
   background-color: var(--accent2-color);
   color: var(--accent1-color);
-  font-family: var(--paragraph-font);
-  border: 2px solid var(--accent1-color);
-  list-style-type: none;
-  font-size: 1.2rem;
-  padding: 11px;
-  margin: 20px 32px 20px 32px;
-  display: flex;
-  overflow: hidden;
 }
 
-.branch {
-  width: 40px;
-  height: 25px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.plan a:link,
-.plan a:visited {
-  color: var(--accent1-color);
-}
-.plan a:hover {
-  color: var(--accent2-color);
-  background-color: var(--accent1-color);
-  padding: 20px;
-}
 
 /*Contact Webpage*/
 
@@ -181,7 +151,7 @@ div.text-dec p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  margin: 32px;
+  margin: 100px;
 }
 
 .contact-title {
@@ -203,7 +173,9 @@ div.text-dec p {
   font-family: var(--paragraph-font);
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -216,12 +188,11 @@ input[type=text], select, textarea {
   font-family: var(--primary-color);
 }
 
-button {
-  margin-left: .2rem;
-  background-color: var(--accent1-color);
-  border-radius: .4rem;
-  font-size: .7em;
-  color: var(--secondary-color);
+.fields button {
+  margin-left: 0.2rem;
+  background-color: var(--accent2-color);
+  font-size: 0.8em;
+  color: var(--accent1-color);
   padding: 14px;
 }
 
@@ -231,12 +202,21 @@ button {
   padding: 20px;
 }
 
-#feedback { 
-  margin: 5rem 10rem;
-  border: 2px solid var(--accent1-color);
+#main-footer {
   background-color: var(--accent1-color);
-  padding: 1rem;
-  display: none;
-  font-size: 1.6em;
-  color: var(--accent2-color);
- }
+  color: var(--primary-color);
+  bottom: 0;
+  width: 100%;
+  font-size: 1.4em;
+  padding: 16px 0;
+  position: fixed;
+}
+
+a:link,
+a:visited {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: cyan;
+}
