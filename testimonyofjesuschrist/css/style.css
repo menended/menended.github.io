@@ -4,6 +4,7 @@
   --secondary-color: #ffbf00;
   --accent1-color: #383838;
   --accent2-color: #d3d3d3;
+  --extra: #7094ad;
   --heading-font: "Cinzel";
   --paragraph-font: "Unna", Serif, Arial;
 }
@@ -41,7 +42,7 @@ header {
 }
 
 .title h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-shadow: 0 0 1px var(--accent1-colors);
   font-family: var(--heading-font);
   grid-column: 1 / 2;
@@ -106,11 +107,24 @@ div.text-dec p {
   grid-column: 1 / 3;
 }
 
+.invitation {
+  background-color: var(--extra);
+  padding: 140px;
+}
+
+.invitation h2 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
 .posts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
-  padding: 56px;
+  padding: 56px 40px;
+  padding-bottom: 100px;
 }
 
 .card {
@@ -120,6 +134,7 @@ div.text-dec p {
   border: 2px solid var(--accent1-color);
   background-color: var(--primary-color);
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .card p,
@@ -129,7 +144,7 @@ h4 {
 }
 
 .card button {
-  background-color: var(--accent1-color);
+  background-color: var(--extra);
   color: var(--accent2-color);
   width: 100%;
   padding: 18px 25px;
@@ -137,6 +152,7 @@ h4 {
   text-align: left;
   border: none;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .card button:hover {
@@ -218,5 +234,5 @@ a:visited {
 }
 
 a:hover {
-  color: cyan;
+  color: var(--extra);
 }
