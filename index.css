@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(221, 217, 217);
+    background-color: rgb(198, 229, 243);
     border-radius: 16px;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
@@ -8,7 +8,7 @@ header {
 }
 
 h1, h2 {
-    color: rgb(83, 78, 78);
+    color: rgb(92, 83, 83);
 }
 
 hr {
@@ -23,7 +23,7 @@ hr {
 
 .portrait {
     position: absolute;
-    left: 89%;
+    left: 88%;
     top: 45px;
     width: 180px;
     box-shadow: 2.5px 2.5px 30px black;
@@ -37,7 +37,7 @@ main {
 }
 
 footer {
-    background-color: rgb(221, 217, 217);
+    background-color: rgb(198, 229, 243);
     border-radius: 16px;
     font-size: 1.2em;
     text-align: center;
