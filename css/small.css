@@ -1,10 +1,13 @@
 header {
     background-color: rgb(198, 229, 243);
-    border-radius: 16px;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     padding: 32px;
+}
+
+body {
+    padding: 25px;
 }
 
 img {
@@ -12,8 +15,14 @@ img {
     display: block;
   }
 
-h1, h2 {
+h1 {
     color: rgb(92, 83, 83);
+    font-size: 1.0;
+}
+
+h2 {
+    color: rgb(92, 83, 83);
+    font-size: 0.5;
 }
 
 hr {
@@ -27,12 +36,8 @@ hr {
 }
 
 .portrait {
-    position: absolute;
-    left: 88%;
-    top: 45px;
-    width: 180px;
-    box-shadow: 2.5px 2.5px 30px black;
-    border-top-right-radius: 16px;
+    width: 150px;
+    height: auto;
 }
 
 main {
@@ -43,7 +48,6 @@ main {
 
 footer {
     background-color: rgb(198, 229, 243);
-    border-radius: 16px;
     font-size: 1.2em;
     text-align: center;
     padding: 28px;
