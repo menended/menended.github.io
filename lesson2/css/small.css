@@ -1,46 +1,64 @@
 header {
     background-color: rgb(97, 23, 23);
-    box-shadow: 2.5px 2.5px 5px black;
+    box-shadow: 2.5px 2.5px 4px black;
     font-size: 1.5em;
-    font-family: 'Neuton', sans-serif;
     text-align: left;
-    padding: 32px;
+    padding: 22px;
+}
+
+body {
+    padding: 22px;
+}
+
+footer {
+    padding: 22px;
+    background-color: rgb(97, 23, 23);
+    color: rgb(233, 223, 223);
+    box-shadow: 2.5px 2.5px 4px black;
+    font-size: 1.2em;
+    font-family: 'Abel', sans-serif;
 }
 
 h1 {
     color: rgb(248, 248, 248);
+    font-family: 'Charmonman', cursive;
 }
 
 h2 {
     color:  rgb(97, 23, 23);
-    font-size: 2.7em;
-    font-family: 'Neuton', sans-serif;
+    font-size: 2.8em;
+    font-family: 'Abel', sans-serif;
 }
 
 h3 {
     color:  rgb(97, 23, 23);
-    font-size: 1.7em;
-    font-family: 'Neuton', sans-serif;
+    font-size: 2em;
+    font-family: 'Abel', sans-serif;
 }
 
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+p {
+    font-family: 'Abel', sans-serif;
+    color: black;
+    font-size: 1.6em;
+    text-align: justify;
 }
+
+a {
+    color: rosybrown;
+}
+
 
 .picture {
-    width: 400px;
+    width: 380px;
     height: auto;
+    border: 7px solid rgb(199, 196, 196);
 }
 
 main {
     display: grid;
+    column-gap: 12em;
     font-size: 0.8rem;
+    padding: 22px;
 }
 
 .principles {
