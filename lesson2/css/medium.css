@@ -1,0 +1,6 @@
+@media only screen and (min-width: 900px) {
+
+    .principles {
+        grid-template-columns: 1fr 1fr;
+    }
+}
