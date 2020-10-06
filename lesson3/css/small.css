@@ -15,15 +15,18 @@ nav {
 footer {
     background: #EDF2F4;
     font-family: 'Abel', sans-serif;
-    height: 120px;
+    height: 150px;
     width: 100%;
-    padding: 30px 80px;
     color: #495057;
     font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 footer a {
-    padding: 5px;
+    padding: 4px;
     border-radius: 4px;
 }
 
@@ -66,6 +69,7 @@ h1 {
     font-family: 'Dosis', sans-serif;
     color: #495057;
     font-size: 1.8em;
+    font-weight: bold;
 }
 
 h2 {
@@ -81,18 +85,19 @@ p {
     text-align: justify;
 }
 
-.reference {
-    font-family: 'Abel', sans-serif;
-    color: #2B2D42;
-    font-size: 1.5em;
-    font-weight: bold;
+.sheet {
+    padding: 40px 500px 60px 80px;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.reference {
+    font-family: 'Abel', sans-serif;
+    color: #8d99ae;
+    font-size: 1.5em;
+}
+
+#logo {
+    width: 240px;
+    padding: 20px;
 }
 
 /* Color Scheme */
@@ -100,5 +105,4 @@ section{
 #C0 {
     margin: 100px;
     position: static;
-    
 }
