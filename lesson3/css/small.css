@@ -1,66 +1,104 @@
-header {
-    background-color: rgb(97, 23, 23);
-    box-shadow: 2.5px 2.5px 4px black;
-    font-size: 1.5em;
-    text-align: left;
-    padding: 22px;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-body {
-    padding: 22px;
+nav {
+    background: #EDF2F4;
+    height: 120px;
+    width: 100%;
 }
 
 footer {
-    padding: 22px;
-    background-color: rgb(97, 23, 23);
-    color: rgb(233, 223, 223);
-    box-shadow: 2.5px 2.5px 4px black;
-    font-size: 1.2em;
+    background: #EDF2F4;
     font-family: 'Abel', sans-serif;
+    height: 120px;
+    width: 100%;
+    padding: 30px 80px;
+    color: #495057;
+    font-size: 1.2em;
+}
+
+footer a {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+.title {
+    line-height: 120px;
+    padding: 0 80px;
+    color: #495057;
+    font-size: 2.8em;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 120px;
+    margin: 0 12px;
+}
+
+nav ul li a {
+    font-size: 1.6em;
+    padding: 20px;
+    border-radius: 4px;
+    color: #2B2D42;
+    font-family: 'Dosis', sans-serif;
+}
+
+a:hover {
+    background: #ef233c;
+    transition: .6s;
+    color: white;
+    border-radius: 4px;
 }
 
 h1 {
-    color: rgb(248, 248, 248);
-    font-family: 'Charmonman', cursive;
+    font-family: 'Dosis', sans-serif;
+    color: #495057;
+    font-size: 1.8em;
 }
 
 h2 {
-    color:  rgb(97, 23, 23);
+    color:  #2B2D42;
     font-size: 2.8em;
-    font-family: 'Abel', sans-serif;
-}
-
-h3 {
-    color:  rgb(97, 23, 23);
-    font-size: 2em;
     font-family: 'Abel', sans-serif;
 }
 
 p {
     font-family: 'Abel', sans-serif;
     color: black;
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: justify;
 }
 
-a {
-    color: rosybrown;
+.reference {
+    font-family: 'Abel', sans-serif;
+    color: #2B2D42;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-
-.picture {
-    width: 380px;
-    height: auto;
-    border: 7px solid rgb(199, 196, 196);
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-main {
-    display: grid;
-    column-gap: 12em;
-    font-size: 0.8rem;
-    padding: 22px;
-}
+/* Color Scheme */
 
-.principles {
-    grid-template-columns: 1fr;
+#C0 {
+    margin: 100px;
+    position: static;
+    
 }
