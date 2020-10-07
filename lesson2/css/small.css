@@ -3,20 +3,30 @@ header {
     box-shadow: 2.5px 2.5px 4px black;
     font-size: 1.5em;
     text-align: left;
-    padding: 22px;
+    padding: 50px;
 }
 
-body {
-    padding: 22px;
+main {
+    display: grid;
+    column-gap: 100px;
+    font-size: 0.8rem;
+    padding: 50px;
+}
+
+.principles {
+    grid-template-columns: 1fr;
 }
 
 footer {
-    padding: 22px;
+    padding: 50px;
     background-color: rgb(97, 23, 23);
     color: rgb(233, 223, 223);
     box-shadow: 2.5px 2.5px 4px black;
     font-size: 1.2em;
     font-family: 'Abel', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -49,18 +59,7 @@ a {
 
 
 .picture {
-    width: 380px;
+    width: 100%;
     height: auto;
     border: 7px solid rgb(199, 196, 196);
-}
-
-main {
-    display: grid;
-    column-gap: 12em;
-    font-size: 0.8rem;
-    padding: 22px;
-}
-
-.principles {
-    grid-template-columns: 1fr;
 }
