@@ -1,3 +1,45 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 600px) {
+    nav  {
+        padding: 20px 40px;
+    }
 
+    nav ul li.items {
+        width: auto;
+        margin: 0 16px;
+        text-align: center;
+    }
+
+    nav ul li.title {
+        justify-content: left;
+        display: flex;
+        font-size: 35px;
+    }
+
+    nav ul li a {
+        color: #2B2D42;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-family: 'Dosis', sans-serif;
+        color: #495057;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    
+    h2 {
+        color:  #2B2D42;
+        font-size: 2.8em;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    p {
+        font-family: 'Abel', sans-serif;
+        color: black;
+        font-size: 1.5em;
+        text-align: justify;
+    }
 }
