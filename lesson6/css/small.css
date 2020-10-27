@@ -106,26 +106,17 @@ main section {
     height: auto;
 }
 
-.title-sec {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    border: 1px solid #000;
-    padding: 1rem 5rem;
-    box-shadow: 0 0 3px black;
-    opacity: 10;
-    margin: 50px;
-  }
-
 .summary {
   position: absolute;
-  top: 15%;
+  top: 10px;
   left: 1px;
-  border: 1px solid #000;
-  padding: 1.5rem;
-  box-shadow: 0 0 3px black;
-  opacity: 10;
-  margin: 50px;
+  border: 0px solid #000;
+  padding: 1.5rem 2rem;
+  
+
+  margin: 30px;
+  background-color: rgb(68, 65, 65);
+  color: rgb(214, 214, 214);
 }
 
 table td {
