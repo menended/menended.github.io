@@ -64,9 +64,9 @@ nav {
 }
 
 a:hover {
-    background-color:rgb(68, 65, 65);
-    transition: .4s;
+    background-color: black;
     color: white;
+    transition: 1s;
 }
 
 main section {
