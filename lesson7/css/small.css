@@ -1,0 +1,179 @@
+h1,
+h2,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #edf2f4;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo {
+  width: 100px;
+  height: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Abel", sans-serif;
+  font-size: 3rem;
+  color: rgb(68, 65, 65);
+  margin: 0 0 0 10px;
+}
+
+h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 2rem;
+  color: rgb(68, 65, 65);
+}
+
+.motto {
+  font-family: "Charmonman", cursive;
+  font-size: 1em;
+  color: rgb(116, 136, 133);
+  margin: 3px 0px 20px 10px;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: rgb(129, 151, 148);
+}
+
+.nav-bar {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li:first-child {
+  display: block;
+}
+
+.nav-bar li {
+  display: none;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  background-color: rgb(71, 100, 63);
+  transition: 0.4s;
+  color: white;
+}
+
+nav a:active {
+  background-color: rgb(68, 65, 65);
+  transition: -2s;
+}
+
+.current {
+  background-color: rgb(68, 65, 65);
+}
+
+main section {
+  padding: 40px;
+  margin: 45px 0px;
+  border: 10px;
+  border-style: groove;
+}
+
+.herosec {
+  margin: 0;
+  position: relative;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.summary {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  border: 0px solid #000;
+  padding: 1.5rem 2rem;
+  
+
+  margin: 30px;
+  background-color: rgb(68, 65, 65);
+  color: rgb(214, 214, 214);
+}
+
+table td {
+    font-size: 2rem;
+    color: rgb(68, 65, 65);
+    text-align: center;
+}
+
+.icons {
+    width: 32%;
+    height: auto;
+}
+
+.preston {
+    float: right;
+    width: 20%;
+    margin: 0 0 20px 20px;
+    height: auto;
+    box-shadow: 0 0 3px black;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+  width: 35px;
+}
+
+.map {
+  width: 40%;
+  margin: 0 0 20px 20px;
+  height: auto;
+  box-shadow: 0 0 3px black;
+}
+
+.contact {
+  float: right;
+  margin: 50px 50px 50px 0;
+}
+
+footer {
+  background: #edf2f4;
+  font-family: "Abel", sans-serif;
+  height: 100px;
+  width: 100%;
+  color: #495057;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Responsive Menu*/
+.responsive li {
+  display: block;
+}
