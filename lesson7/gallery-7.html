@@ -11,13 +11,14 @@
     <link href="css/small.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
+    <link rel="stylesheet" href="print.css" media="print" />
     <title>Menéndez | Preston Town Page Continued</title>
     <meta
       name="description"
       content="Lesson 6, Diego Menéndez at Brigham Young University - Idaho"
     />
   </head>
-  <body id="preston">
+  <body id="gallery">
     <header>
       <picture>
         <img src="images/logo.png" alt="logo" class="logo" />
@@ -38,101 +39,104 @@
         <li><a href="gallery-7.html" class="current">Gallery</a></li>
       </ul>
     </nav>
-    <div class="title">
-      <h2>Weather Gallery</h2>
-    </div>
-    <div class="wrapper">
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/1.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
+    <main class="structureGallery">
+      <div class="titleGallery">
+        <h2>Weather Gallery</h2>
       </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/2.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
+      <br />
+      <div class="wrapper">
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/1.jpg"
+              alt="Place Holder"
+            />
+            <figcaption>Autumn in Lewiston</figcaption>
+          </picture>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/2.jpg"
+              alt="Place Holder"
+            />
+            <figcaption>Cloudy Nampa</figcaption>
+          </picture>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/3.jpg"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Pocatello cleared</figcaption>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/4.png"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Sunny at Driggs</figcaption>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/5.jpg"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Emerald Lake in Burley</figcaption>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/6.jpg"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Sunset in Sagle</figcaption>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/7.jpg"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Snowy at Lava Hot Springs</figcaption>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/8.png"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Summer in Boise</figcaption>
+        </div>
+        <div class="imgGallery">
+          <picture>
+            <img
+              src="images/placeholder-gallery.png"
+              data-src="images/gallery/9.jpg"
+              alt="Place Holder"
+            />
+          </picture>
+          <figcaption>Thunderings in Blackfoot</figcaption>
+        </div>
       </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/3.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/4.png"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/5.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/6.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/7.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/8.png"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-      <div class="1-img">
-        <picture>
-          <img
-            src="images/placeholder-300x400.jpg"
-            data-src="images/gallery/9.jpg"
-            alt="Place Holder"
-          />
-        </picture>
-        <br />
-      </div>
-    </div>
+    </main>
     <script src="app.js" defer></script>
     <footer>
       &copy;2020 | Diego Menéndez | Guatemala |
@@ -142,6 +146,7 @@
       <br />
       Last Date Updated: <span id="currentdate"></span>
     </footer>
+    <script src="js/app.js" defer></script>
     <script src="js/main.js"></script>
     <script src="js/shrink.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

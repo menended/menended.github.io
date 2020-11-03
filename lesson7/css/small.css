@@ -173,7 +173,43 @@ footer {
   justify-content: center;
 }
 
-/*Responsive Menu*/
 .responsive li {
   display: block;
+}
+
+figcaption {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 3.6rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.structureGallery picture img {
+  border-radius: 5px;
+  max-width: 100%;
+  width: 450px;
+  height: auto;
+}
+
+.structureGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+figcaption {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 5px;
 }
