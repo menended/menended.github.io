@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <title>Menéndez | Preston Town Page Continued</title>
+    <meta
+      name="description"
+      content="Lesson 7, Diego Menéndez at Brigham Young University - Idaho"
+    />
+  </head>
+  <body id="gallery">
+    <header>
+      <picture>
+        <img src="images/logo.png" alt="logo" class="logo" />
+      </picture>
+      <section class="title">
+        <h1>The Weather Site</h1>
+        <div class="motto">Be prepared, never surprised</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="#" class="menu">Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="preston-7.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#" class="current">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main class="structureGallery">
+      <div>
+        <h2>Report a storm!</h2>
+      </div>
+      <div>
+        <form action="/action_page.php" method="get">
+          <label for="fname">Full Name •</label><br />
+          <input
+            type="text"
+            pattern="[A-Za-z19]{5}"
+            id="fname"
+            name="fname"
+            required
+          /><br />
+          <label for="mail">Email</label><br />
+          <input
+            type="email"
+            placeholder="emailaddress@mail.com"
+            id="mail"
+            name="mail"
+          /><br />
+          <label for="phone">Phone Number •</label><br />
+          <input type="tel" id="phone" name="phone" required /><br />
+          <label for="zip">Zip Code •</label><br />
+          <input type="number" id="zip" name="zip" required /><br />
+          <label for="date">Storm Date</label><br />
+          <input type="date" id="date" name="date" /><br />
+          <label for="stype">Storm Type</label><br />
+          <input list="s_type" id="stype" name="stype" /><br />
+          <datalist id="s_type">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+          </datalist>
+          <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
+          </label>
+		  <datalist id="tickmarks">
+				<option value="0">
+				<option value="1">
+				<option value="2">
+				<option value="3">
+				<option value="4">
+				<option value="5">
+				<option value="6">
+				<option value="7">
+				<option value="8">
+				<option value="9">
+				<option value="10">
+          </datalist>
+          <br>
+          <label for="sregion">Storm Region</label><br />
+          <input list="s_region" id="sregion" name="sregion" /><br />
+          <datalist id="s_region">
+            <option value="" default selected>Select Region...</option>
+            <option value="Preston"></option>
+            <option value="Soda Springs"></option>
+            <option value="Fish Haven"></option>
+          </datalist>
+          <p>Is your life in danger?</p>
+            <input type="radio" id="yes" name="yes" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="maybe" name="maybe" value="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" id="no" name="no" value="no">
+            <label for="no">No</label><br>
+          <label for="comment">Comments</label><br />
+          <input type="textarea" id="comment" name="comment" /><br />
+          <input type="submit" id="submit" name="submit" value="Send Information">
+        </form>
+      </div>
+    </main>
+    <script src="app.js" defer></script>
+    <footer>
+      &copy;2020 | Diego Menéndez | Guatemala |
+      <a href="https://www.byui.edu/online" target="_blank"
+        >BYUI Online Learning</a
+      >
+      <br />
+      Last Date Updated: <span id="currentdate"></span>
+    </footer>
+    <script src="js/app.js" defer></script>
+    <script src="js/main.js"></script>
+    <script src="js/shrink.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+  </body>
+</html>
