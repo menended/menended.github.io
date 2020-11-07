@@ -80,7 +80,7 @@ nav a:hover {
 
 nav a:active {
   background-color: rgb(68, 65, 65);
-  transition: -2s;
+  transition: 1s;
 }
 
 .current {
@@ -182,7 +182,7 @@ figcaption {
   font-size: 1.2rem;
 }
 
-picture img[data-src] {
+figure img[data-src] {
   filter: blur(0.2em);
 }
 
@@ -193,7 +193,7 @@ picture img[data-src] {
   grid-template-rows: auto;
 }
 
-.structureGallery picture img {
+.structureGallery figure img {
   border-radius: 5px;
   max-width: 100%;
   width: 450px;
@@ -212,4 +212,9 @@ figcaption {
   text-align: left;
   font-size: 1.2rem;
   padding: 5px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
 }
