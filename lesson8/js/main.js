@@ -30,3 +30,7 @@ let fulldate =
   dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
 
 document.getElementById("currentdate").textContent = fulldate;
+
+function rate(rating) {
+  document.getElementById("value").innerHTML = rating;
+}

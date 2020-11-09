@@ -73,7 +73,10 @@
             <option value="Thunderstorm"></option>
             <option value="Tornado"></option>
           </datalist>
-		      <datalist id="bar">
+          <label for="rating">How severe is the storm?</label><br />
+          <input type="range" list="bar" id="rating" mame="rating" value="5" min="1" max="10" step="1" oninput="rate(this.value)" onchange="rate(this.value)"/><br />
+          <span id="value">5</span>
+          <datalist id="bar">
 				    <option value="0">
 				    <option value="1">
 				    <option value="2">
