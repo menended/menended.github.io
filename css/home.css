@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(203, 223, 175);
+    background-color: rgb(199, 199, 199);
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -59,7 +59,7 @@ main {
 }
 
 footer {
-    background-color: rgb(203, 223, 175);
+    background-color: rgb(199, 199, 199);
     font-size: 1.2em;
     text-align: center;
     padding: 28px;

@@ -7,7 +7,6 @@ let daynames = [
   "Friday",
   "Saturday",
 ];
-
 let months = [
   "January",
   "February",
