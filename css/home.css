@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(221, 219, 219);
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -29,12 +29,13 @@ img {
 
 h1 {
     color: rgb(63, 61, 61);
-    font-size: 2.5
+    font-size: 3rem;
 }
 
 h2 {
     color: rgb(63, 61, 61);
-    font-size: 1.5;
+    font-size: 2rem;
+    margin: 0;
 }
 
 hr {
@@ -48,7 +49,7 @@ hr {
 }
 
 .portrait {
-    width: 190px;
+    width: 210px;
     height: auto;
 }
 
@@ -59,7 +60,7 @@ main {
 }
 
 footer {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(221, 219, 219);
     font-size: 1.2em;
     text-align: center;
     padding: 28px;
