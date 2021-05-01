@@ -1,0 +1,19 @@
+@media (min-width: 32.5em) {
+    
+    header {
+        font-size: 1.5em;
+    }
+    
+    header, footer {
+        border-radius: 16px;
+    }
+
+    .portrait {
+        float: right;
+        border-top-right-radius: 16px;
+    }
+
+    footer {
+        font-size: 1.2em;
+    }
+}

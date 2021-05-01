@@ -1,20 +1,13 @@
 header {
     background-color: rgb(221, 219, 219);
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Goudy Bookletter 1911', serif;
     text-align: left;
     padding: 32px;
 }
 
-
-header, footer {
-    border-radius: 16px;
-}
-
 .portrait {
     box-shadow: 2.5px 2.5px 30px black;
-    border-top-right-radius: 16px;
-    float: right;
     width: 250px;
 }
 
@@ -61,7 +54,7 @@ main {
 
 footer {
     background-color: rgb(221, 219, 219);
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     padding: 28px;
     font-family: 'Didact Gothic', sans-serif;
