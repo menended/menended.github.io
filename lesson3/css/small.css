@@ -13,6 +13,24 @@ header {
     justify-items: right;
 }
 
+h1 {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
 #page-title {
     grid-column: 3/4;
     align-items: center;
@@ -20,8 +38,48 @@ header {
     padding: 10px;
 }
 
-#nav-bar {
+nav {
+    background-color: rgb(194, 194, 194);
+    text-align: center;   
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    color: rgb(49, 36, 6);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}    
+
+nav a:hover {
+    background-color: rgb(49, 36, 6);
+    color: rgb(194, 194, 194);
+}
+
+main {
     background-color: lightgoldenrodyellow;
+}
+
+main section {
+    padding: 40px;
+}
+
+main img {
+    width: 80%;
+    height: auto;
+    padding: 15px;
+}
+
+#logowt {
+    width: 250px;
 }
 
 header img {
