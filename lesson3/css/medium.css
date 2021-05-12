@@ -1,0 +1,14 @@
+@media (min-width: 32.5em) {
+    
+    header {
+        font-size: 1.5em;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        font-size: 1.2em;
+    }
+}

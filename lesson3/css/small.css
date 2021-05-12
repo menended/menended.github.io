@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    background-color: rgb(241, 209, 102);
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto auto 180px;
+    justify-items: right;
+}
+
+#page-title {
+    grid-column: 3/4;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+#nav-bar {
+    background-color: lightgoldenrodyellow;
+}
+
+header img {
+    grid-column: 4/5;
+}
+
+footer {
+    background-color: rgb(241, 209, 102);
+    padding: 40px;
+    text-align: center;
+}
