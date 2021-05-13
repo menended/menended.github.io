@@ -1,5 +1,4 @@
 @media (min-width: 64em) {
-    
    
     h1 {
         font-size: 3rem;
@@ -7,6 +6,14 @@
 
     h2 {
         font-size: 2.6rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
     }
 
     nav ul {

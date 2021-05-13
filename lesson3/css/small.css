@@ -6,29 +6,43 @@
 
 header {
     background-color: rgb(241, 209, 102);
-    padding: 30px;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: auto auto auto 180px;
-    justify-items: right;
+    margin: 0 auto;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 16px;
 }
 
 h1 {
     font-size: 3rem;
     padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    margin: 0;
 }
 
 h2 {
     font-size: 1.5rem;
     padding: 10px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
 }
 
 h3 {
     padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.4rem;
 }
 
 p {
     padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
 }
 
 #page-title {
@@ -38,9 +52,23 @@ p {
     padding: 10px;
 }
 
+table {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+th, tr, td {
+    border: 2px solid rgb(49, 36, 6);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
 nav {
     background-color: rgb(194, 194, 194);
     text-align: center;   
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
 }
 
 nav ul {
@@ -56,12 +84,13 @@ nav ul li a {
     color: rgb(49, 36, 6);
     display: flex;
     flex-direction: column;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }    
 
 nav a:hover {
     background-color: rgb(49, 36, 6);
     color: rgb(194, 194, 194);
+    font-weight: bold;
 }
 
 main {
@@ -76,6 +105,7 @@ main img {
     width: 80%;
     height: auto;
     padding: 15px;
+    margin: 0 auto;
 }
 
 #logowt {
@@ -90,4 +120,5 @@ footer {
     background-color: rgb(241, 209, 102);
     padding: 40px;
     text-align: center;
+    font-family: 'Rajdhani', sans-serif;
 }
