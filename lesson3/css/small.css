@@ -64,6 +64,28 @@ th, tr, td {
     font-family: 'Rajdhani', sans-serif;
 }
 
+#c1 {
+    background-color: #F1D166;
+}
+
+#c2 {
+    background-color: #C2C2C2;
+}
+
+#c3 {
+    background-color: #312406;
+    color: white;
+}
+
+#c4 {
+    background-color: #FAFAD2;
+}
+
+#c5 {
+    background-color: #E05263;
+    color: white;
+}
+
 nav {
     background-color: rgb(194, 194, 194);
     text-align: center;   
