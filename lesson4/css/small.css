@@ -16,7 +16,7 @@ header {
 }
 
 header picture img {
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 
@@ -59,6 +59,7 @@ p {
     font-size: 1rem;
 }
 
+/*
 table {
     padding: 10px;
     margin: 0 auto;
@@ -92,6 +93,7 @@ th, tr, td {
     background-color: #E05263;
     color: white;
 }
+*/
 
 nav {
     background-color: rgb(194, 194, 194);
@@ -124,25 +126,15 @@ nav a:hover {
 
 main {
     background-color: lightgoldenrodyellow;
-}
-
-main section {
     padding: 40px;
 }
 
-main img {
-    width: 80%;
-    height: auto;
-    padding: 15px;
-    margin: 0 auto;
-}
-
-#logowt {
-    width: 250px;
-}
-
-header img {
-    grid-column: 4/5;
+.main-sections {
+    margin: 12px;
+    padding: 1rem;
+    border-style: inset;
+    background-color: rgb(238, 238, 238);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 footer {
