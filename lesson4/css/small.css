@@ -51,7 +51,6 @@ h3 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.4rem;
 }
-*/
 
 p {
     padding: 10px;
@@ -59,7 +58,6 @@ p {
     font-size: 1rem;
 }
 
-/*
 table {
     padding: 10px;
     margin: 0 auto;
@@ -97,17 +95,25 @@ th, tr, td {
 
 nav {
     background-color: rgb(194, 194, 194);
-    text-align: center;   
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
+    margin: 0 auto;
 }
 
-nav ul {
+.nav-bar li:first-child {
+	display: block;
+}
+
+.nav-bar li {
+	display: none;
+}
+
+.nav-bar {
     list-style-type: none;
     overflow: hidden;
 }
 
-nav ul li a {
+.nav-bar a {
     text-decoration: none;
     font-size: 1rem;
     text-align: center;
@@ -118,7 +124,7 @@ nav ul li a {
     font-size: 1rem;
 }    
 
-nav a:hover {
+.nav-bar a:hover {
     background-color: rgb(49, 36, 6);
     color: rgb(194, 194, 194);
     font-weight: bold;
