@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-size: 16px;
+}
+
+header {
+    background-color: rgb(241, 209, 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header picture img {
+    width: 100%;
+    height: auto;
+}
+
+#page-title {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px;
+}
+
+.page-motto {
+    font-size: 1.4rem;
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+/*
+h3 {
+    padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.4rem;
+}
+*/
+
+p {
+    padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+}
+
+table {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+th, tr, td {
+    border: 2px solid rgb(49, 36, 6);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#c1 {
+    background-color: #F1D166;
+}
+
+#c2 {
+    background-color: #C2C2C2;
+}
+
+#c3 {
+    background-color: #312406;
+    color: white;
+}
+
+#c4 {
+    background-color: #FAFAD2;
+}
+
+#c5 {
+    background-color: #E05263;
+    color: white;
+}
+
+nav {
+    background-color: rgb(194, 194, 194);
+    text-align: center;   
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    color: rgb(49, 36, 6);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}    
+
+nav a:hover {
+    background-color: rgb(49, 36, 6);
+    color: rgb(194, 194, 194);
+    font-weight: bold;
+}
+
+main {
+    background-color: lightgoldenrodyellow;
+}
+
+main section {
+    padding: 40px;
+}
+
+main img {
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#logowt {
+    width: 250px;
+}
+
+header img {
+    grid-column: 4/5;
+}
+
+footer {
+    background-color: rgb(241, 209, 102);
+    padding: 40px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
