@@ -108,6 +108,10 @@ nav {
 	display: none;
 }
 
+.responsive li {
+    display: block;
+}
+
 .nav-bar {
     list-style-type: none;
     overflow: hidden;
