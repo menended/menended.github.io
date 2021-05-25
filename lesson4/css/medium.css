@@ -31,5 +31,14 @@
 
     footer {
         font-size: 1.2rem;
+        margin: 0 70px 0 70px;
+    }
+
+    .nav-bar li:first-child {
+        display: none;
+    }
+
+    .nav-bar li {
+        display: block;
     }
 }

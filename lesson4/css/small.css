@@ -4,6 +4,10 @@
     box-sizing: border-box;
 } 
 
+html {
+    background-color: lightgoldenrodyellow;
+}
+
 body {
     font-size: 16px;
 }
@@ -136,7 +140,7 @@ nav {
 
 main {
     background-color: lightgoldenrodyellow;
-    padding: 40px;
+    padding: 70px;
 }
 
 .main-sections {
