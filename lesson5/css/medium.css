@@ -31,7 +31,6 @@
 
     footer {
         font-size: 1.2rem;
-        margin: 0 70px 0 70px;
     }
 
     .nav-bar li:first-child {
@@ -40,5 +39,20 @@
 
     .nav-bar li {
         display: block;
+    }
+
+    #fist-section {
+        margin: 10px;
+        position: relative;
+    }
+    
+    #summary {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .5;
+        background-color: rgb(92, 90, 90);
     }
 }

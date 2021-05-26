@@ -4,6 +4,15 @@
     box-sizing: border-box;
 } 
 
+aside {
+    display: none;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
 html {
     background-color: #FAFAD2;
 }
@@ -44,12 +53,11 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    padding: 10px;
+    padding: 14px;
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
 }
 
-/*
 h3 {
     padding: 10px;
     font-family: 'Rajdhani', sans-serif;
@@ -73,29 +81,6 @@ th, tr, td {
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
 }
-
-#c1 {
-    background-color: #F1D166;
-}
-
-#c2 {
-    background-color: #C2C2C2;
-}
-
-#c3 {
-    background-color: #312406;
-    color: white;
-}
-
-#c4 {
-    background-color: #FAFAD2;
-}
-
-#c5 {
-    background-color: #E05263;
-    color: white;
-}
-*/
 
 nav {
     background-color: #C2C2C2;
@@ -149,15 +134,61 @@ a:hover {
 
 main {
     background-color: #FAFAD2;
-    padding: 70px;
 }
 
 .main-sections {
-    margin: 12px;
-    padding: 1rem;
-    border-style: inset;
+    margin: 1.5rem;
+    padding: .5rem;
     background-color: rgb(238, 238, 238);
     font-family: 'Rajdhani', sans-serif;
+}
+
+.main-sections img {
+    width:100%;
+    height: auto;
+}
+
+#first-section img {
+    width:100%;
+    height: auto;
+}
+
+#first-section {
+    position: relative;
+}
+
+#summary {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 1.5rem;
+    box-shadow: 0 0 40px #111;
+    opacity: .9;
+    background-color: rgb(255, 255, 255);
+}
+
+#summary div:first-child {
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+#second-section {
+    display: none;
+}
+
+#third-section {
+   padding: 20px;
+   margin: 50px 20px 20px 20px;
+}
+
+#fourth-section {
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+}
+
+#fourth-section img {
+    display: none;
 }
 
 footer {

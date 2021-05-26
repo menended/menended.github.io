@@ -14,14 +14,18 @@
     />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <title>Weather Today</title>
     <meta
       name="description"
       content="Welcome Preston! Get news, real time updates, events, and relevant information for Preston so you can enjoy without surprise."
     />
+    <script defer src="js/events.js"></script>
   </head>
 
   <body>
+    <aside id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 🥞</aside>
     <header>
       <section id="page-title">
         <h1>Weather Today</h1>
@@ -44,10 +48,51 @@
     </nav>
     <main>
       <h2>Preston Idaho</h2>
-      <div class="main-sections">Hero w/ weather summary</div> 
-      <div class="main-sections">5 Day Forecast</div>
-      <div class="main-sections">Article</div>
-      <div class="main-sections">Contact information</div>
+      <div id="first-section">
+        <picture><img src="images/hero banner.jpeg" alt="Preston Lake" /></picture>
+        <section id="summary">
+          <div>Weather Summary</div>
+          <div>Currently: Sunny</div>
+          <div>High: 76°F</div>
+          <div>Wind Chill: °F</div>
+          <div>Humidy: 69%</div>
+          <div>Wind Speed: 5 mph</div>
+        </section>
+      </div>
+      <div class="main-sections" id="second-section">Article</div>
+      <div class="main-sections" id="third-section">
+        <picture><img src="images/Picnic.jpg" alt="Preston - Afternoon" /></picture>
+        <h3>Interesting Title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+          ipsam ab enim nesciunt odit! Veritatis quam commodi sit alias
+          provident. Animi sed amet iure soluta quaerat sunt voluptate, autem
+          dolores. Harum praesentium quae voluptatum enim omnis? Inventore in
+          enim tempora distinctio laboriosam exercitationem totam quibusdam
+          incidunt mollitia consequuntur, dolorem unde assumenda perspiciatis
+          nihil? Magnam excepturi modi vitae. Voluptatibus aperiam quo
+          laboriosam assumenda. Fugiat quo laboriosam adipisci, rem itaque
+          distinctio eum, illo neque id perspiciatis ad?
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Soluta quaerat earum optio aliquam aperiam atque,
+          maxime ullam eos nesciunt. Reiciendis ipsa sed animi, omnis id
+          exercitationem error fugiat, fuga consequatur molestias hic tenetur
+          nisi voluptates! Totam earum cupiditate unde ea, quae omnis beatae
+          magni ex voluptatum autem voluptatem quisquam voluptates!
+        </p>
+      </div>
+      <div class="main-sections" id="fourth-section">
+        <picture><img src="images/map.png" alt="Preston Google Map" /></picture>
+        <h3>The Weather Site</h3>
+        <div> 🗺 30 N 1st E</div>
+        <div>Preston, ID 83263</div>
+        <br>
+        <div>📞 999.999.9999</div>
+        <div>✉ weathertoday@email.com</div>
+      </div>
     </main>
     <footer>
       &copy; <span id="currentyear"></span>| Diego Menéndez | Guatemala |
