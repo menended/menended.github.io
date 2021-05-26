@@ -15,6 +15,7 @@
 
     h2 {
         font-size: 1.6rem;
+        padding: 35px;
     }
 
     nav ul {
@@ -40,19 +41,65 @@
     .nav-bar li {
         display: block;
     }
+    
+    #first-section img {
+        width:100%;
+        height: auto;
+        padding: 0 100px;
+    }
 
-    #fist-section {
-        margin: 10px;
-        position: relative;
+    #summary {
+        top: 40px;
+        left: 145px;
+        font-size: 1.5rem;
+        padding: 2rem;
+        opacity: .8;
     }
     
-    #summary {
-        position: absolute;
-        top: 25px;
-        right: 25px;
-        padding: 1.5rem;
-        box-shadow: 0 0 30px #111;
-        opacity: .5;
-        background-color: rgb(92, 90, 90);
+    #second-section {
+        display: block;
+        margin: 100px;
+        align-items: center;
+        text-align: center;
+        margin: 40px 200px;
+    }
+
+    .forecast { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 50px;
+        font-size: 1.6rem;
+    }
+
+    .forecast img {
+        width: 100%;
+        height: auto;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    #third-section {
+        margin: 100px;
+        padding: 100px;
+    }
+
+    #third-section img {
+        width: 30%;
+        height: auto;
+        float: right;
+        padding: 25px;
+    }
+
+    #fourth-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        padding: 40px;
+    }
+
+    #fourth-section img {
+        display: block;
+        width: 45%;
+        height: auto;
+        margin: 0 0 0 250px;
     }
 }
